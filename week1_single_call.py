@@ -1,18 +1,3 @@
-"""
-WEEK1：第一次模型呼叫
-
-AI 協作紀錄：AI 協助整理程式架構；學生要自己閱讀程式，
-並理解 API key 是從環境變數讀取，不能寫在這個檔案裡。
-
-執行前先安裝 requests：
-  py -m pip install requests
-
-PowerShell 設定 API key（把右邊換成自己的 key；不要貼進作業或 GitHub）：
-  $env:NVIDIA_API_KEY = "你的 NVIDIA API key"
-
-執行：
-  py week1_single_call.py
-"""
 
 import json
 import os
